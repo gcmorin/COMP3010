@@ -1,5 +1,3 @@
-Had many issues with this assignemnt. Could not figure out how to have True -> "true" and False -> "false". 
-It was saying that it expected an integer and I'm not sure why. Because of this isZero does not work correctly. 
-The If statment, plus, and multiply work but if you pass the If statement an IsZero expression it will not work.
+Took me many attempts to get this working. At first I tried passing integers but came to the realization that passing it as a string and then casting it to an int when needed would be best. Since it needs to return a string this is the best way. 
 
-Because of the issues I am having only tests 3, 7, 8, 9, 10, 12 and 16 evaluate correctly.  
+For the exception I'm not sure if you wanted an actual exception so it exits after receiving an invalid expression or if you wanted it to return "Eval_Error", if you just wanted it to return the string it would be an easy change. 
