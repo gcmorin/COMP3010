@@ -1,3 +1,6 @@
-Took me many attempts to get this working. At first I tried passing integers but came to the realization that passing it as a string and then casting it to an int when needed would be best. Since it needs to return a string this is the best way. 
+Took me many attempts to get this working. Finally got it working with the function eval returning a type exp.
 
-For the exception I'm not sure if you wanted an actual exception so it exits after receiving an invalid expression or if you wanted it to return "Eval_Error", if you just wanted it to return the string it would be an easy change. 
+You can use the function print_eval to print out the tests. This function calls function string_of_exp with function eval as a parameter to print out the expression.
+For example with test 1 the code is print_eval(True);;
+
+The code passes all 20 Tests in order.
